@@ -1,0 +1,281 @@
+/*banner*/
+
+/*banner下面部分*/
+.content-all{
+    width: 1150px;
+    margin: auto;
+}
+.part2-top{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+}
+.b-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    align-items: center;
+}
+.b-bottom a{
+    color: black;
+}
+.b-bottom-left ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+.b-bottom-left ul li{
+    margin-left: 12px;
+}
+.b-bottom-left ul li img{
+    border-radius: 50px;
+}
+.left-line,.right-line{
+    width: 0px;
+    height: 45px;
+    border: 1px solid antiquewhite;
+    margin-left: 15px;
+    line-height: 60px;
+    background-color: antiquewhite;
+}
+.b-bottom-center .list1,.b-bottom-center .list2{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin-left: 20px;
+}
+.b-bottom-center li{
+    color: black;
+    margin: 5px 9px;
+}
+.b-bottom-center em{
+    font-style: normal;
+    display: inline-block;
+    background: #73c9e5;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.b-bottom-right div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.b-bottom-right a{
+    display: flex;
+    align-items: center;
+}
+.b-bottom-right img{
+    width: 22px;
+    margin-left: 10px;
+}
+.b-bottom-right em{
+    font-style: normal;
+    color: black;
+    margin-left: 5px;
+}
+.wrap{
+    height: 260px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrap .left{
+    width: 530px;
+    height: 240px;
+    position: relative;
+}
+.wrap .left ul{
+    width: 530px;
+    height: 240px;
+}
+.wrap .left ul li{
+    width: 530px;
+    height: 240px;
+    list-style: none;
+    float: left;
+    position: absolute;
+}
+.wrap .left ul img{
+    width: 530px;
+    height: 240px;
+}
+.wrap .pointList{
+    width: 120px;
+    height: 12px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+.wrap .pointList .point{
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.wrap ul .show{
+    display: block;
+    z-index: 10;
+}
+.wrap .point.show{
+    background-color: #73c9e5;
+}
+.wrap .right{
+    width: 600px;
+    height: 240px;
+    position: relative;
+}
+
+
+.wrap .right:hover .btn1{
+    display: block;
+    left: 0;
+    top: 87px;
+} 
+.wrap .right:hover .btn2{
+    display: block;
+    right: 0;
+    top: 87px;
+
+}
+.wrap button{
+    position: absolute;
+    width: 35px;
+    height: 60px;
+    font-size: 30px;
+    z-index: 100;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+    border: 0px;
+    outline: none;
+    display: none;
+}
+
+.wrap .right .top,.wrap .right .bottom{
+    display: flex;
+    flex-wrap: nowrap;
+} 
+.wrap .top div,.wrap .bottom div{
+    margin-left: 20px;
+}
+.wrap .right div div{
+    width: 180px;
+    height: 110px;
+    position: relative;
+}
+.wrap .bottom{
+    margin-top: 20px;
+}
+.wrap .right span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 14px;
+    width: 180px;
+    height: 18px;
+    transition:height 0.5s;
+    -moz-transition:height .0.5s;
+    -webkit-transition:height 0.5s;
+    -o-transition:height 0.5s;
+    transition-timing-function: linear;
+    overflow:hidden;
+text-overflow: ellipsis;
+display:-webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient:vertical;
+}
+.wrap .right  div div:hover .ccc{
+    height: 110px;
+    background-color: black;
+    opacity: 0.5;
+    -webkit-line-clamp: 10;
+}
+
+.wrap .right div img{
+    width: 180px;
+    height: 110px;
+}
+.wrap .right .top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wrap .right .bottom{
+    position: absolute;
+    top: 110px;
+    left: 0px; 
+}
+.look{
+    z-index: 10;
+}
+
+.extension{
+    margin-top: 20px;
+}
+.extension .e-top{
+    height: 40px;
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.extension .e-top span{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.extension .e-top a{
+    height: 20px;
+}
+.extension .e-top a img{
+    width: 18px;
+    margin-top: 16px;
+}
+.extension .e-top a em{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.extension button{
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 581px;
+    border: 0;
+}
+.extension .e-bottom{
+    height: 180px;
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.extension .e-bottom .left{
+    width: 200px;
+    height: 200px;
+}
+.extension .e-bottom .left img{
+    width: 200px;
+    height: 120px;
+}
+.extension .e-bottom .right img{
+    width: 300px;
+    height: 180px;
+}
+.extension .e-bottom span{
+    font-size: 14px;
+}

@@ -1,0 +1,118 @@
+/*顶部导航栏*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.part1{
+
+    width: 100%;
+    height: 150px;
+    background-image: url(../image/TSAEH\(9PFHHRFU\(RM18]@\)8.png);
+}
+.top-nav{
+    height: 56px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-link-ul{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 36px;
+    list-style: none;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+.nav-link li{
+    line-height: 36px;
+    margin-left: 12px;
+    display: block;
+    word-break: keep-all;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-link-ul a{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.navSearch{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.searchShow{
+    display: none;
+}
+.nav-search-keywords{
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+}
+.nav-search-btn{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #505050;
+    font-size: 16px;
+    height: 36px;
+    outline: none;
+    background-image: url(../image/aaa.png)
+}
+.nav-search-btn:hover{
+    background-image: url(../image/aaaa.png);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.users{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.users a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    margin-left: 10px;
+}
+.user-option{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 20px;
+}
+.user-item{
+    margin-left: 10px;
+    display: block;
+    word-break: keep-all;
+}
+.user-item a{
+    color: aliceblue;
+}
+.user-option button{
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: pink;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}

@@ -1,0 +1,591 @@
+.advertisement img{
+    width: 1150px;
+    height: 100px;
+    margin-top: 40px;
+}
+.broadcast{
+    width: 1150px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.broadcast .left{
+    width: 840px;
+    height: 400px;
+}
+.broadcast .left .top{
+    width: 840px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+.broadcast .left .top img{
+    width: 45px;
+}
+.broadcast .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.broadcast .left .top span{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.broadcast .left .top div{
+    margin-left: 477.5px;
+}
+.broadcast .left .top button{
+    width: 60px;
+    height: 23px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline:  none;
+}
+.broadcast .bottom{
+    margin-top: 10px;
+}
+.broadcast .right .top{
+    width: 290px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.topSpan{
+    font-size: 10px;
+    line-height: 50px;
+    margin-right: 5px;
+}
+.broadcast .right .bottom{
+    width: 290px;
+    height: 330px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.r-bottom{
+    margin-left: 20px;
+    position: absolute;
+    display: none;
+}
+.broadcast .number{
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.broadcast .right .r-bottom div{
+    position: relative;
+}
+.broadcast .r-bottom content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.broadcast .float{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bottomImg{
+    width: 290px;
+    margin-top: 10px;
+    height: 288px;
+}
+.show1{
+    display: block;
+}
+.broadcast .right .top .show1{
+    color: #73c9e5;
+}
+
+
+
+.animation{
+    width: 1150px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.animation .left{
+    width: 840px;
+    height: 400px;
+}
+.animation .left .top{
+    width: 840px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+.animation .left .top img{
+    width: 45px;
+}
+.animation .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.animation .left .top div{
+    margin-left: 600px;
+}
+.animation .left .top button{
+    width: 60px;
+    height: 23px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline:  none;
+}
+.animation .bottom{
+    margin-top: 10px;
+}
+.animation .right{
+    margin-left: 20px;
+}
+.animation .right .top{
+    height: 50px;
+    width: 290px;
+}
+.animation .right .top span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.animation .right .top button{
+    float: right;
+    margin-top: 15px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.animation .right .bottom{
+    width: 290px;
+    height: 340px;
+}
+.animation .element{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.animation .right .number1{
+    width: 20px;
+    height: 20px;
+    background-color: #73c9e5;
+    border-radius: 4px;
+}
+.animation .right .number1 span{
+    margin-left: 6px;
+    color: white;
+}
+.animation .right .bottom img{
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.animation .element a{
+    font-size: 14 px;
+    margin-left: 10px;
+    color: black;
+}
+.animation .element .number{
+    margin-left: 6px;
+    color: gainsboro;
+}
+.animation .element .number1~a{
+    margin-left: 15px;
+}
+.animation .element .number~a{
+    margin-left: 20px;
+}
+.animation .right .element div span{
+    font-size: 12px;
+}
+.fanju{
+    margin-top: 40px;
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fanju .left .top{
+    height: 45px;
+    width: 840px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fanju .left .top img{
+    width: 45px;
+}
+.fanju .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 45px;
+}
+.fanju .left .top span{
+    line-height: 45px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.fanju .left .top button{
+    margin-left: 333px;
+    width: 100px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #73c9e5;
+    border-radius: 3px;
+    color: #73c9e5;
+}
+.fanju .left .bottom{
+    width: 840px;
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+.fanju .bottom div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fanju .bottom div div{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.fanju .bottom div span{
+    margin-left: 10px;
+}
+
+
+.fanju .right{
+    margin-left: 20px;
+}
+.fanju .right .top{
+    height: 45px;
+    width: 290px;
+}
+.fanju .right .top span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.fanju .right .top button{
+    float: right;
+    margin-top: 15px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.fanju .right .bottom{
+    width: 290px;
+    height: 340px;
+    margin-top: 20px;
+}
+.fanju .element{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+}
+.fanju .right .number1{
+    width: 20px;
+    height: 20px;
+    background-color: #73c9e5;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+.fanju .right .number1 span{
+    margin-left: 6px;
+    color: white;
+}
+.fanju .element a{
+    font-size: 14 px;
+    margin-left: 10px;
+    color: black;
+}
+.fanju .element .number{
+    
+    color: gainsboro;
+}
+.fanju .element .number1~a{
+    margin-left: 10px;
+}
+.fanju .element .number~a{
+    margin-left: 20px;
+}
+.fanju .right .element div span{
+    font-size: 12px;
+}
+
+
+
+.fanjuBottom{
+    width: 1150px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.fanjuBottom .left{
+    width: 840px;
+    height: 400px;
+}
+.fanjuBottom .left .top{
+    width: 840px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+.fanjuBottom .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 13px;
+}
+.fanjuBottom .left .top div{
+    margin-left: 605px;
+}
+.fanjuBottom .left .top button{
+    width: 60px;
+    height: 23px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline:  none;
+}
+.fanjuBottom .right{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.fanjuBottom .right .top span{
+    font-size: 20px;
+}
+.fanjuBottom .right .bottom img{
+    margin-top: 15px;
+    width: 290px;
+    height: 300px;
+}
+
+
+.create{
+    margin-top: 40px;
+    width: 1150px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.create .left .top{
+    height: 45px;
+    width: 840px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.create .left .top img{
+    width: 45px;
+}
+.create .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 45px;
+}
+.create .left .top span{
+    line-height: 45px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.create .left .top button{
+    margin-left: 333px;
+    width: 100px;
+    height: 30px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #73c9e5;
+    border-radius: 3px;
+    color: #73c9e5;
+}
+.create .left .bottom{
+    width: 840px;
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+.create .bottom div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.create .bottom div div{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.create .bottom div span{
+    margin-left: 10px;
+}
+
+
+
+.create .right{
+    margin-left: 20px;
+}
+.create .right .top{
+    height: 45px;
+    width: 290px;
+}
+.create .right .top span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.create .right .top button{
+    float: right;
+    margin-top: 15px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.create .right .bottom{
+    width: 290px;
+    height: 340px;
+    margin-top: 20px;
+}
+.create .element{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+}
+.create .right .number1{
+    width: 20px;
+    height: 20px;
+    background-color: #73c9e5;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+.create .right .number1 span{
+    margin-left: 6px;
+    color: white;
+}
+.create .element a{
+    font-size: 14 px;
+    margin-left: 10px;
+    color: black;
+}
+.create .element .number{
+    
+    color: gainsboro;
+}
+.create .element .number1~a{
+    margin-left: 10px;
+}
+.create .element .number~a{
+    margin-left: 20px;
+}
+.create .right .element div span{
+    font-size: 12px;
+}
+.create .right  div img{
+    width: 290px;
+    height: 100px;
+}
+
+
+.createBottom{
+    width: 1150px;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.createBottom .left{
+    width: 840px;
+    height: 400px;
+}
+.createBottom .left .top{
+    width: 840px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+}
+.createBottom .left .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 13px;
+}
+.createBottom .left .top div{
+    margin-left: 575px;
+}
+.createBottom .left .top button{
+    width: 60px;
+    height: 23px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline:  none;
+}
+.createBottom .right{
+    margin-left: 20px;
+}
+.createBottom .right .top{
+    height: 50px;
+    width: 290px;
+}
+.createBottom .right .top span{
+    font-size: 20px;
+    line-height: 50px;
+}
+.createBottom .right .top button{
+    float: right;
+    margin-top: 15px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.createBottom .right .bottom{
+    width: 290px;
+    height: 340px;
+}
+.createBottom .element{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.createBottom .right .number1{
+    width: 20px;
+    height: 20px;
+    background-color: #73c9e5;
+    border-radius: 4px;
+}
+.createBottom .right .number1 span{
+    margin-left: 6px;
+    color: white;
+}
+.createBottom .right .bottom img{
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.createBottom .element a{
+    font-size: 14 px;
+    margin-left: 10px;
+    color: black;
+}
+.createBottom .element .number{
+    margin-left: 6px;
+    color: gainsboro;
+}
+.createBottom .element .number1~a{
+    margin-left: 15px;
+}
+.createBottom .element .number~a{
+    margin-left: 20px;
+}
+.createBottom .right .element div span{
+    font-size: 12px;
+}
